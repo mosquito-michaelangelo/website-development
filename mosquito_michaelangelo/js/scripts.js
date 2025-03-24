@@ -15,3 +15,15 @@ function checkInput() {
 
 textInput.addEventListener("input", checkInput);
 textArea.addEventListener("input", checkInput);
+
+function addComment() {
+    let comment = document.querySelector(".message-team");
+    const newComment = document.createElement("p");
+    newComment.textContent = `${textInput.value} - ${textArea.value}`;
+    comment.appendChild(newComment);
+
+    textInput.value = "";
+    textArea.value = "";
+
+    checkInput();
+}

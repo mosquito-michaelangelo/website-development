@@ -162,7 +162,7 @@ body {
     color: var(--text-color);
 }
 
-.comment-div {
+#comment_div {
     margin-right: 10%;
     margin-left: 10%;
     margin-top: 2%;
@@ -188,13 +188,13 @@ body {
     margin-top: 2%;
 }
 
-.comment-button:disabled {
+#comment_button:disabled {
     cursor: not-allowed;
     background: none;
     color: black;
 }
 
-.comment-button {
+#comment_button {
     padding: 1.5%;
     width: 14%;
     border-radius: 10px;
@@ -237,7 +237,7 @@ body {
         color: var(--text-color);
     }
 
-	.comment-button {
+	#comment_button {
 		width: 105%;
 		margin-left: -1%;
 	}
@@ -277,7 +277,7 @@ body {
         color: var(--text-color);
     }
 
-	.comment-button {
+	#comment_button {
 		width: 105%;
 		margin-left: -1%;
 	}
@@ -317,7 +317,7 @@ body {
         color: var(--text-color);
     }
 
-	.comment-button {
+	#comment_button {
 		width: 105%;
 		margin-left: -1%;
 	}
