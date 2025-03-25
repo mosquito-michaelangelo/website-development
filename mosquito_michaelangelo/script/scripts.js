@@ -18,8 +18,8 @@ textArea.addEventListener("input", checkInput);
 
 function addComment() {
     let comment = document.querySelector(".message-team");
-    const newComment = document.createElement("p");
-    newComment.textContent = `${textInput.value} - ${textArea.value}`;
+    let newComment = document.createElement("p");
+    newComment.textContent = `${textArea.value} - ${textInput.value}`;
     comment.appendChild(newComment);
 
     textInput.value = "";
