@@ -1,4 +1,4 @@
-## Techy Blinders
+# Techy Blinders
 
 ## Description
 This is a collaborative website where each member has their own personal page within a group website.
