@@ -1,7 +1,7 @@
 ## Techy Blinders
 
 ## Description
-info
+This is a collaborative website where each member has their own personal page within a group website.
 
 ## Netlify URL
 - [Techy Blinders, Webpage](https://pupt-dit-techy-blinders-exercise-8.netlify.app/)
@@ -12,4 +12,4 @@ info
 
 
 ## Deadline for this Exercise
-- [![Review Assignment Due Date](https://classroom.github.com/assets- /deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/cBg6gwjq)
+[![Review Assignment Due Date](https://classroom.github.com/assets- /deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/cBg6gwjq)
