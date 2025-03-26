@@ -10,3 +10,6 @@ info
 - [Piadozo, Edriane](https://pupt-dit-techy-blinders-exercise-8.netlify.app/piadozo_edriane/)
 - [Veslino, Marc](https://pupt-dit-techy-blinders-exercise-8.netlify.app/veslino_marc/)
 - [Mosquito, Michael Angelo](https://pupt-dit-techy-blinders-exercise-8.netlify.app/mosquito_michaelangelo/)
+
+
+## Deadline for this Exercise
