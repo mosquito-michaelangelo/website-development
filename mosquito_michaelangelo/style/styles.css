@@ -64,7 +64,7 @@ body {
 	text-decoration: none;
 }
 
-#my_work_div, #interest_hobbies_div, #testimonial_div, #gallery_div, 
+#my_work_div, #interest_hobbies_div, #testimonial_div, #gallery_div,
 #contact_div, .goal-comment {
 	margin-top: 17%;
 	background: var(--card-bg);
@@ -203,8 +203,21 @@ body {
     color: var(--bg-color);
 }
 
+.ascending-button, .descending-button {
+	padding: 1.5%;
+    width: 14%;
+    border-radius: 10px;
+	margin-left: 87%;
+    background: none;
+}
+
+.descending-button:hover, .ascending-button:hover{
+	color: var(--bg-color);
+	background-color: var(--text-color);
+}
+
 @media (max-width: 320px) {
-	#interest_hobbies_div, #my_work_div, #testimonial_div, #gallery_div, 
+	#interest_hobbies_div, #my_work_div, #testimonial_div, #gallery_div,
 	#contact_div, .goal-comment {
 		width: 80%;
 		margin-left: 9%;
@@ -237,14 +250,14 @@ body {
         color: var(--text-color);
     }
 
-	#comment_button {
+	#comment_button, .ascending-button, .descending-button {
 		width: 105%;
 		margin-left: -1%;
 	}
 }
 
 @media (min-width: 321px) and (max-width: 375px) {
-	#interest_hobbies_div, #my_work_div, #testimonial_div, #gallery_div, 
+	#interest_hobbies_div, #my_work_div, #testimonial_div, #gallery_div,
 	#contact_div, .goal-comment {
 		width: 80%;
 		margin-left: 9%;
@@ -277,14 +290,14 @@ body {
         color: var(--text-color);
     }
 
-	#comment_button {
+	#comment_button, .ascending-button, .descending-button {
 		width: 105%;
 		margin-left: -1%;
 	}
 }
 
 @media (min-width: 376px) and (max-width: 425px) {
-	#interest_hobbies_div, #my_work_div, #testimonial_div, #gallery_div, 
+	#interest_hobbies_div, #my_work_div, #testimonial_div, #gallery_div,
 	#contact_div, .goal-comment {
 		width: 80%;
 		margin-left: 9%;
@@ -317,7 +330,7 @@ body {
         color: var(--text-color);
     }
 
-	#comment_button {
+	#comment_button, .ascending-button, .descending-button {
 		width: 105%;
 		margin-left: -1%;
 	}

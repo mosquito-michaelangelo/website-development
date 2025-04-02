@@ -31,21 +31,21 @@
                 </ul>
             </div>
         </div>
-        
+
         <div id="my_work_div">
             <h2>My Works</h2>
 
             <div class="work-div-2">
                 <ol class="websites">
-                    <li><a href="./home.html" 
+                    <li><a href="./home.html"
                            target="_blank">Home</a></li>
-                    <li><a href="./myWebPage.html" 
+                    <li><a href="./myWebPage.html"
                            target="_blank">My Page</a></li>
                     <li><a href="./contact.html"
                            target="_blank">Contacts</a></li>
-                    <li><a href="./phones.html" 
+                    <li><a href="./phones.html"
                            target="_blank">Phones</a></li>
-                    <li><a href="./about.html" 
+                    <li><a href="./about.html"
                            target="_blank">About me</a></li>
                 </ol>
             </div>
@@ -55,10 +55,10 @@
             <h2>Testimonials</h2>
                 <div class="testimonial-div-2">
                     <p>Your interest and hobbies are cool. - Piadozo</p>
-                    <p>Great layout and cool interest. Also the idea 
+                    <p>Great layout and cool interest. Also the idea
                         of how you design is very good. - Veslino</p>
-                    <p>A simple and relatable webpage that highlights a love 
-                        for gaming, novels, sports, sleeping, and good food. 
+                    <p>A simple and relatable webpage that highlights a love
+                        for gaming, novels, sports, sleeping, and good food.
                         - Consultado</p>
                 </div>
         </div>
@@ -80,11 +80,11 @@
             <h2 class="label-contact">CONTACT</h2>
                 <div class="name-div">
                     <label for="name" class="label-name">Name</label>
-                    <input type="text" 
-                           name="name" 
+                    <input type="text"
+                           name="name"
                            placeholder="Full Name"
                            class="input-name"
-                           required> 
+                           required>
                 </div>
 
                 <div class="email-div">
@@ -141,14 +141,17 @@
 
             <div class="team-comment-div">
                 <h2>Comments</h2>
-                
+
                 <div class="message-team">
-                    <p>The goals that you have is interesting also 
-                        i'm hoping that one day you achieve that - Veslino</p>
+                    <p>The goals that you have is interesting also
+                        i'm hoping that one day you achieve that - Veslino
+                    <span>3/19/2025 | 10:49:30 PM</span></p>
                     <p>I hope that someday you will
-                        be a good web developer - Piadozo</p>
-                    <p>Focused on growth, success, and family, your goals 
-                        set a strong path forward. - Consultado</p>
+                        be a good web developer - Piadozo
+                    <span>3/19/2025 | 10:35:45 PM</span></p>
+                    <p>Focused on growth, success, and family, your goals
+                        set a strong path forward. - Consultado
+                    <span>3/19/2025 | 11:15:35 PM</span></p>
                 </div>
             </div>
 
@@ -156,7 +159,7 @@
                 <div class="comment-name">
                     <label for="comment_name_input">Name</label>
                 </div>
-                <input type="text" 
+                <input type="text"
                        name="comment_name_input"
                        placeholder="Full Name"
                        id="comment_name_input"
@@ -166,7 +169,7 @@
                     <label for="message_team">Message</label>
                 </div>
                 <div class="message-team-input">
-                    <textarea name="message_team" 
+                    <textarea name="message_team"
                               id="message_team"
                               rows="5"
                               required></textarea>
@@ -179,9 +182,23 @@
                            onclick="addComment()"
                            disabled>
                 </div>
+
+                <div class="ascending-div">
+                    <button onclick="sortAscending()"
+                            class="ascending-button">
+                        ascending
+                    </button>
+                </div>
+
+                <div class="descending-div">
+                    <button onclick="sortDescending()"
+                            class="descending-button">
+                        descending
+                    </button>
+                </div>
             </div>
         </div>
-        
+
         <script src="./script/scripts.js"></script>
     </body>
 </html>
